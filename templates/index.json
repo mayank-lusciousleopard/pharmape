@@ -1,0 +1,776 @@
+{
+  "sections": {
+    "page_width_image_banner_xqRjcW": {
+      "type": "page-width-image-banner",
+      "custom_css": [
+        ".banner__content {display: none;}",
+        ".banner__media.media {background: transparent;}",
+        ".banner {margin-top: 1.5rem;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "redirect_url": "#",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-06T110434.964.png",
+        "variant_id": "",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "page_width_image_banner_tdxryi": {
+      "type": "page-width-image-banner",
+      "custom_css": [
+        ".banner__content {display: none;}",
+        ".banner__media.media {background: transparent;}",
+        ".banner {margin-top: 2.5rem;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "redirect_url": "#",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-06T111438.883.png",
+        "variant_id": "",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "category_multicolumn_RDwyTK": {
+      "type": "category-multicolumn",
+      "blocks": {
+        "column_LHDrYi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T112752.749.png",
+            "title": "Deal Of The Month",
+            "text": "",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_dPey4e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T112819.036.png",
+            "title": "Deal Of The Day",
+            "text": "",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_x879Ei": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T113046.400.png",
+            "title": "Therapeutic class",
+            "text": "",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_bREb8Q": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T113226.434.png",
+            "title": "Hair And Skin Care",
+            "text": "",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_3UE6AB": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T113244.785.png",
+            "title": "Health Supplements",
+            "text": "",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_rn693E": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T113302.509.png",
+            "title": "Basic Health Essentials",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_e8FDje": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T113317.995.png",
+            "title": "Healthcare Devices",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XQ7pyd": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T113336.336.png",
+            "title": "Dental Care",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qG7cDk": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T113356.621.png",
+            "title": "Women Care",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hkeqN4": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T113415.104.png",
+            "title": "Deodrants",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gRLpTT": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T113434.316.png",
+            "title": "Ayurvedic Care",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xJgDrC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T113451.357.png",
+            "title": "Baby Care",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fPHVGq": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T114008.682.png",
+            "title": "Fitness Equipments",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iHyx3A": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T114024.278.png",
+            "title": "Fitness Supplements",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rixNeh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T114042.336.png",
+            "title": "Rehabilitation Aids",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wba4rp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T114118.044.png",
+            "title": "Surgical & Ortho Care",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Pw6VAt": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T114133.200.png",
+            "title": "Cosmetics & Personal Care",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_whRJfp": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T114148.976.png",
+            "title": "Health & Nutrition",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_68ERKW": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T114202.914.png",
+            "title": "Home Care & Hygiene",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KDpjaz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T114222.829.png",
+            "title": "Vaccines & Speciality",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rwNWay": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T114306.293.png",
+            "title": "Medicines",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3yBP6B": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T114321.525.png",
+            "title": "OTC",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mGx39B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T114351.946.png",
+            "title": "Request a Quotation",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LHDrYi",
+        "column_dPey4e",
+        "column_x879Ei",
+        "column_bREb8Q",
+        "column_3UE6AB",
+        "column_rn693E",
+        "column_e8FDje",
+        "column_XQ7pyd",
+        "column_qG7cDk",
+        "column_hkeqN4",
+        "column_gRLpTT",
+        "column_xJgDrC",
+        "column_fPHVGq",
+        "column_iHyx3A",
+        "column_rixNeh",
+        "column_wba4rp",
+        "column_Pw6VAt",
+        "column_whRJfp",
+        "column_68ERKW",
+        "column_KDpjaz",
+        "column_rwNWay",
+        "column_3yBP6B",
+        "column_mGx39B"
+      ],
+      "settings": {
+        "title": "Shop by category",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b46fda0b-9496-4b96-92ae-39150b029b92",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "logo_list_9TCagY": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_image_bQDQre": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T124023.647.png",
+            "logo_title": "",
+            "link": "#"
+          }
+        },
+        "logo_image_twEKpx": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T124053.966.png",
+            "logo_title": "",
+            "link": "#"
+          }
+        },
+        "logo_image_4NgLpk": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T124224.957.png",
+            "logo_title": "",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_bQDQre",
+        "logo_image_twEKpx",
+        "logo_image_4NgLpk"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "title": "Explore More",
+        "logo_width": "160px"
+      }
+    },
+    "spotlight_multicolumn_rHDCrQ": {
+      "type": "spotlight-multicolumn",
+      "blocks": {
+        "column_AgGXRf": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_2": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_3": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_4": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "title": "Capsules",
+            "text": "<p>+124 More<\/p>",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_mRkgGJ": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_2": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_3": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_4": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "title": "Capsules",
+            "text": "<p>+124 More<\/p>",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_LGrN9k": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_2": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_3": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_4": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "title": "Capsules",
+            "text": "<p>+124 More<\/p>",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_PGGQC6": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_2": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_3": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_4": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "title": "Capsules",
+            "text": "<p>+124 More<\/p>",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "column_4TTdzL": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_2": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_3": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "image_4": "shopify:\/\/shop_images\/image_-_2024-12-09T123644.281.png",
+            "title": "Capsules",
+            "text": "<p>+124 More<\/p>",
+            "link_label": "",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "column_AgGXRf",
+        "column_mRkgGJ",
+        "column_LGrN9k",
+        "column_PGGQC6",
+        "column_4TTdzL"
+      ],
+      "settings": {
+        "title": "Spotlight offers",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "See All",
+        "button_link": "#",
+        "color_scheme": "scheme-b46fda0b-9496-4b96-92ae-39150b029b92",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "new_featured_collection_JftGLg": {
+      "type": "new-featured-collection",
+      "settings": {
+        "collection_image": "shopify:\/\/shop_images\/image_-_2024-12-06T163851.183.png",
+        "title": "Best Seller",
+        "heading_size": "h2",
+        "description": "<p>Tagline goes here<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-seller",
+        "button_text": "",
+        "button_url": "",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "new_testimonials_3hAJhW": {
+      "type": "new-testimonials",
+      "blocks": {
+        "testimonial_eWggEk": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>We have been acquiring from Hyperpure since day 1 of operations. One of the crucial cogs in an F&B business is procurement, and Hyperpure gives us comfort in terms of quality and quantities. I have been in the F&B space for 16 years and I can't highlight enough the value of their offering.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T134346.773.png",
+            "author": "Abhimanyu Singh Rana",
+            "rating": "<p>311 Se Dilli, Bengaluru<\/p>"
+          }
+        },
+        "testimonial_LEM4he": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>We have been acquiring from Hyperpure since day 1 of operations. One of the crucial cogs in an F&B business is procurement, and Hyperpure gives us comfort in terms of quality and quantities. I have been in the F&B space for 16 years and I can't highlight enough the value of their offering.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T134346.773.png",
+            "author": "Abhimanyu Singh Rana",
+            "rating": "<p>311 Se Dilli, Bengaluru<\/p>"
+          }
+        },
+        "testimonial_K4pNei": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "content": "<p>We have been acquiring from Hyperpure since day 1 of operations. One of the crucial cogs in an F&B business is procurement, and Hyperpure gives us comfort in terms of quality and quantities. I have been in the F&B space for 16 years and I can't highlight enough the value of their offering.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-06T134346.773.png",
+            "author": "Abhimanyu Singh Rana",
+            "rating": "<p>311 Se Dilli, Bengaluru<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_eWggEk",
+        "testimonial_LEM4he",
+        "testimonial_K4pNei"
+      ],
+      "settings": {
+        "title": "Stories From Partners",
+        "content": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "new_featured_collection_bmfpGf": {
+      "type": "new-featured-collection",
+      "settings": {
+        "collection_image": "shopify:\/\/shop_images\/image_-_2024-12-06T163851.183.png",
+        "title": "Best Seller",
+        "heading_size": "h2",
+        "description": "<p>Tagline goes here<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-seller",
+        "button_text": "",
+        "button_url": "",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "new_featured_collection_4EyR3t": {
+      "type": "new-featured-collection",
+      "settings": {
+        "collection_image": "shopify:\/\/shop_images\/image_-_2024-12-06T163851.183.png",
+        "title": "Best Seller",
+        "heading_size": "h2",
+        "description": "<p>Tagline goes here<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-seller",
+        "button_text": "",
+        "button_url": "",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "new_featured_collection_MWdaUg": {
+      "type": "new-featured-collection",
+      "settings": {
+        "collection_image": "shopify:\/\/shop_images\/image_-_2024-12-06T163851.183.png",
+        "title": "Best Seller",
+        "heading_size": "h2",
+        "description": "<p>Tagline goes here<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-seller",
+        "button_text": "",
+        "button_url": "",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "new_featured_collection_KRL6w3": {
+      "type": "new-featured-collection",
+      "settings": {
+        "collection_image": "shopify:\/\/shop_images\/image_-_2024-12-06T163851.183.png",
+        "title": "Best Seller",
+        "heading_size": "h2",
+        "description": "<p>Tagline goes here<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-seller",
+        "button_text": "",
+        "button_url": "",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "new_featured_collection_rXwCwB": {
+      "type": "new-featured-collection",
+      "settings": {
+        "collection_image": "shopify:\/\/shop_images\/image_-_2024-12-06T163851.183.png",
+        "title": "Best Seller",
+        "heading_size": "h2",
+        "description": "<p>Tagline goes here<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-seller",
+        "button_text": "",
+        "button_url": "",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "new_featured_collection_XUPGGA": {
+      "type": "new-featured-collection",
+      "settings": {
+        "collection_image": "shopify:\/\/shop_images\/image_-_2024-12-06T163851.183.png",
+        "title": "Best Seller",
+        "heading_size": "h2",
+        "description": "<p>Tagline goes here<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-seller",
+        "button_text": "",
+        "button_url": "",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_width_image_banner_UXzxM7": {
+      "type": "page-width-image-banner",
+      "custom_css": [
+        ".banner__content {display: none;}",
+        ".banner__media.media {background: transparent;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "redirect_url": "#",
+        "image": "shopify:\/\/shop_images\/image_-_2024-12-06T131719.822.png",
+        "variant_id": "",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "page_width_image_banner_xqRjcW",
+    "page_width_image_banner_tdxryi",
+    "category_multicolumn_RDwyTK",
+    "logo_list_9TCagY",
+    "spotlight_multicolumn_rHDCrQ",
+    "new_featured_collection_JftGLg",
+    "new_testimonials_3hAJhW",
+    "new_featured_collection_bmfpGf",
+    "new_featured_collection_4EyR3t",
+    "new_featured_collection_MWdaUg",
+    "new_featured_collection_KRL6w3",
+    "new_featured_collection_rXwCwB",
+    "new_featured_collection_XUPGGA",
+    "page_width_image_banner_UXzxM7"
+  ]
+}

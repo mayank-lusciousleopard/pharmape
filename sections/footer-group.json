@@ -1,0 +1,156 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer_multicolumn_pCxchx": {
+      "type": "footer-multicolumn",
+      "blocks": {
+        "column_KDq3xy": {
+          "type": "column",
+          "settings": {
+            "title": "260m+",
+            "text": "<p>Visitors<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ec7i9e": {
+          "type": "column",
+          "settings": {
+            "title": "31m+",
+            "text": "<p>Orders Delivered<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BpMzBf": {
+          "type": "column",
+          "settings": {
+            "title": "1800+",
+            "text": "<p>Cities<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_KDq3xy",
+        "column_ec7i9e",
+        "column_BpMzBf"
+      ],
+      "settings": {
+        "title": "INDIA’S LARGEST HEALTHCARE PLATFORM",
+        "heading_size": "h3",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b46fda0b-9496-4b96-92ae-39150b029b92",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_6PE3bR": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Know Us",
+            "custom_text": "",
+            "custom_url": "",
+            "menu": "useful-links"
+          }
+        },
+        "link_list_CnqFqF": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Our Policies",
+            "custom_text": "",
+            "custom_url": "",
+            "menu": "useful-links"
+          }
+        },
+        "link_list_n4m8NJ": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Our Services",
+            "custom_text": "",
+            "custom_url": "",
+            "menu": "useful-links"
+          }
+        },
+        "brand_information_4zx8XN": {
+          "type": "brand_information",
+          "settings": {
+            "heading": "Connect",
+            "description_1": "<p>Social Links<\/p>",
+            "show_social": true,
+            "description_2": "<p>Want daily dose of health?<\/p>",
+            "custom_text": "SIGN UP",
+            "custom_url": "\/account\/register"
+          }
+        },
+        "image_67imRC": {
+          "type": "image",
+          "settings": {
+            "heading": "Download App",
+            "image": "shopify:\/\/shop_images\/image_-_2024-12-12T105711.928.png",
+            "url": "#",
+            "image_2": "shopify:\/\/shop_images\/image_-_2024-12-12T105910.235.png",
+            "url_2": "#",
+            "image_width": 120,
+            "alignment": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "link_list_6PE3bR",
+        "link_list_CnqFqF",
+        "link_list_n4m8NJ",
+        "brand_information_4zx8XN",
+        "image_67imRC"
+      ],
+      "settings": {
+        "address": "",
+        "color_scheme": "scheme-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_1": "shopify:\/\/shop_images\/image_-_2024-12-12T122124.084.png",
+        "heading_1": "Reliable",
+        "description_1": "<p>All products displayed on Pharmapa areprocured from verified and licensedpharmacies. All labs listed on the platform areaccredited<\/p>",
+        "image_2": "shopify:\/\/shop_images\/image_-_2024-12-12T122148.637.png",
+        "heading_2": "Secure",
+        "description_2": "<p>Pharmapa uses Secure Sockets Layer (SSL 128-bit encryption and is Payment Card Industry Data Security Standard (PCI DSS) compliant<\/p>",
+        "image_3": "shopify:\/\/shop_images\/image_-_2024-12-12T122236.443.png",
+        "heading_3": "Affordable",
+        "description_3": "<p>Find affordable medicine substitutes, save upto 50% on health products, up to 80% off onlab tests and free doctor consultations.<\/p>",
+        "image_bottom": "shopify:\/\/shop_images\/image_-_2024-12-12T124732.167.png",
+        "heading_bottom": "India's only LegitScript and ISO\/ IEC 27001:2022 certified online healthcare platform",
+        "accordion_heading": "Know more about PharmaPe",
+        "accordion_content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam<\/p>",
+        "copyright_content": "<p>© 2024 PharmaPe. All rights reserved. All medicines are dispensed in compliance with the Drugs and Cosmetics Act, 1940 and Drugs and Cosmetics Rules, 1945. We do not process requests for Schedule X and habit forming drugs.<\/p>",
+        "image_payment": "shopify:\/\/shop_images\/image_-_2024-12-12T144104.799.png"
+      }
+    }
+  },
+  "order": [
+    "footer_multicolumn_pCxchx",
+    "footer"
+  ]
+}

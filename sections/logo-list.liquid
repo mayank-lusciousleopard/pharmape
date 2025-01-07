@@ -1,0 +1,229 @@
+<style>
+  .logo-bar__item {
+    display: inline-block;
+    /* max-width: {{ section.settings.logo_width }}; */
+  }
+  .logo-bar__item img {
+    width: 100%;
+}
+  ul.logo-list-parent {
+    text-align: center;
+    padding: 0;
+}
+  .logo-bar__item p {
+    margin-top: 0;
+}
+  .logo-bar__item img {
+    width: 100%;
+    height: auto;
+}
+  .logo-bar__item p {
+    font-size: 12px;
+}
+  .logo-bar__item {
+    width: 10%;
+}
+  ul.logo-list-parent {
+    /* display: flex;
+    justify-content: center; */
+    /* gap: 1rem; */
+}
+  ul.logo-list-parent li.logo-bar__item {
+    padding: 0 0.75rem;
+}
+  ul.logo-list-parent {
+    display: flex;
+    gap: 1rem;
+}
+.logo-bar__item img {
+    display: block;
+    /* width: 160px;
+    height: 160px; */
+    margin: 0 auto;
+    object-fit: contain;
+    padding: 0;
+}
+  @media screen and (max-width:767px){
+  .logo-bar__item {
+    width: 33%;
+}
+  }
+</style>
+<div class="color-{{ section.settings.color_scheme }}">
+<div class="page-width">
+<h2>{{ section.settings.title | escape }}</h2>
+<div class="my-cus-logo-list color-{{ section.settings.color_scheme }}">
+{%- if section.blocks.size > 0 -%}
+  <ul class="logo-list-parent">
+    {%- for block in section.blocks -%}
+      <li class="logo-bar__item" {{ block.shopify_attributes }}>
+        {%- if block.settings.link != blank -%}
+          <a href="{{ block.settings.link }}">
+        {%- endif -%}
+
+          {%- if block.settings.image != blank -%}
+            {{ block.settings.image | img_url: '1500x1500', scale: 1 | img_tag: block.settings.image.alt }}
+          {%- else -%}
+            {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+            {% if block.settings.logo_title != blank %}
+              <p>{{ block.settings.logo_title }}</p>
+              {% endif %}
+        {%- if block.settings.link != blank -%}
+          </a>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+</div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<!-- Add the slick-theme.css if you want default styling -->
+<link
+rel="stylesheet"
+type="text/css"
+href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+
+<script>
+  jQuery(document).ready(function(){
+  var $slider = $('.logo-list-parent');
+  $slider.slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    speed: 300,
+    nextArrow: '<button type="button" class="slick-next"><svg class="my-slick-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg></button>',
+  prevArrow: '<button type="button" class="slick-prev"><svg class="my-slick-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path></svg></button>',
+    arrows: true,
+    dots: false,
+  adaptiveHeight: true,
+    autoplay: true,
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+  });
+  
+
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Logo list",
+  "class": "index-section",
+  "max_blocks": 16,
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Logo list"
+    },
+    {
+      "type": "select",
+      "id": "logo_width",
+      "label": "Logo width",
+      "default": "160px",
+      "options": [
+        {
+          "label": "Extra Small",
+          "value": "100px"
+        },
+        {
+          "label": "Small",
+          "value": "125px"
+        },
+        {
+          "label": "Medium",
+          "value": "160px"
+        },
+        {
+          "label": "Large",
+          "value": "175px"
+        },
+        {
+          "label": "Extra Large",
+          "value": "200px"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo_image",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+      "type": "text",
+      "id": "logo_title",
+      "label": "Logo Heading",
+      "default": "Logo list"
+    },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link",
+          "info": "Optional"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Logo list",
+      "category": "Image",
+      "blocks": [
+        {
+          "type": "logo_image"
+        },
+        {
+          "type": "logo_image"
+        },
+        {
+          "type": "logo_image"
+        },
+        {
+          "type": "logo_image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

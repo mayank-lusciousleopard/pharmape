@@ -1,0 +1,157 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "custom_pricing_yXjE4q": {
+          "type": "custom_pricing",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "icon_with_text_xJA3Ht": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "title": "Why shop from PharmaPe?",
+            "heading_size": "h3",
+            "layout": "vertical",
+            "icon_1": "none",
+            "image_1": "shopify:\/\/shop_images\/image_-_2024-12-09T183132.337.png",
+            "heading_1": "Superfast Delivery",
+            "description_1": "<p>Get your order delivered to your doorstep at the earliest from stores near you.<\/p>",
+            "icon_2": "none",
+            "image_2": "shopify:\/\/shop_images\/image_-_2024-12-09T183132.337.png",
+            "heading_2": "Best Prices & Offers",
+            "description_2": "<p>Best price destination with offers directly from the manufacturers.<\/p>",
+            "icon_3": "none",
+            "image_3": "shopify:\/\/shop_images\/image_-_2024-12-09T183132.337.png",
+            "heading_3": "Wide Assortment",
+            "description_3": "<p>Choose from 5000+ products across food, personal care, household & other categories.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "custom_pricing_yXjE4q",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "icon_with_text_xJA3Ht"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-b46fda0b-9496-4b96-92ae-39150b029b92",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "product_description_fGCL3C": {
+      "type": "product-description",
+      "blocks": {
+        "collapsible_row_rHmR4H": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "View More Details",
+            "icon": "none",
+            "row_content": "",
+            "page": "",
+            "custom_liquid": "{{ product.description }}"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_rHmR4H"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Product Details",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_description_fGCL3C",
+    "related-products"
+  ]
+}

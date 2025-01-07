@@ -1,0 +1,241 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: 0;
+    }
+  }
+{%- endstyle -%}
+<div class="new-testimonial-section color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding">
+    <div class="heading_section page-width">
+      {%- if section.settings.title != blank -%}
+        <div class="my-featured-title">
+        <h2 class="title {{ section.settings.heading_size }} ">
+          {{ section.settings.title | escape }}
+        </h2>
+        </div>
+      {%- endif -%}
+      {%- if section.settings.content != blank -%}
+        <div class="sub_title center">
+          {{ section.settings.content }}
+        </div>
+      {%- endif -%}
+    </div>
+    <div class="my-testimonials-sec-cont page-width">
+      {{ section.settings.custom_liquid }}
+      <div class="testimonial quotes {% comment %}swiper {% endcomment %}">
+        <div class="my-testimonial-slick {% comment %}swiper-wrapper{% endcomment %}">
+          {%- for block in section.blocks -%}
+            <div class="{% comment %}swiper-slide{% endcomment %}">
+              <div class="testimonial_wrapper">
+                <div class="testimonial_content">
+                  {% if block.settings.title != blank %}
+                <div class="testimonial_title">
+                  <h2 class="h3">{{ block.settings.title }}</h2>
+                </div>
+              {% endif %}
+                  {%- if block.settings.content != blank -%}
+                    <div class="rte">{{ block.settings.content }}</div>
+                  {%- endif -%}
+            <div class="testimonial_content_bottom">
+              <div class="testimonial_content_bottom_inner">
+            {% if block.settings.image != blank %}
+            <div class="testimonial_auth_img">
+                  {{ block.settings.image | image_url: width: 90 | image_tag: loading: 'lazy', class: 'card__image' }}
+                </div>
+              {% endif %}
+            <div class="test_inner-cont">
+                  {%- if block.settings.author != blank -%}
+                    <div class="inline-richtext">{{ block.settings.author }}</div>
+                  {%- endif -%}
+            <div class="cli-inner-icon">
+            {{ block.settings.rating }}
+                  </div>
+            </div>
+              </div>
+            </div>
+                </div>
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% comment %}
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".quotes", {
+    /*spaceBetween: 30,
+    slidesPerView: '3',*/
+    /*centeredSlides: true,*/
+    autoplay: {
+      delay: 1,
+      disableOnInteraction: false,
+    },
+    freeMode: true,
+    speed: 5000,
+    shortSwipes: false,
+    longSwipes: false,
+   /* allowTouchMove: false,
+    grabCursor: false,*/
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 3.5,
+        spaceBetween: 30,
+      },
+    },
+  });
+</script>
+{% endcomment %}
+<script>
+  $('.new-testimonial-section .my-testimonial-slick').slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+    nextArrow: '<button type="button" class="slick-next"><svg class="my-slick-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg></button>',
+  prevArrow: '<button type="button" class="slick-prev"><svg class="my-slick-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path></svg></button>',
+    arrows: true,
+    dots: false,
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+</script>
+
+
+
+{% schema %}
+{
+  "name": "new testimonials",
+  "class": "shopify-section--testimonials",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "background-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "testimonial",
+      "settings": [
+        {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Multicolumn",
+      "label": "t:sections.multicolumn.settings.title.label"
+    },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Avatar"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "author",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "rating",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "new testimonials"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

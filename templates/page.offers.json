@@ -1,0 +1,189 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_YgAQ9V": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hjDmWw": {
+          "type": "heading",
+          "settings": {
+            "heading": "PharmPa Offers & Coupon Codes",
+            "heading_size": "h2"
+          }
+        },
+        "text_BTBAtc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>PharmPa is one of India’s leading online healthcare platforms that allows you to make great savings on your medicines and healthcare needs every day.From finding the prescribed medicine you need to the wellness product that is best suitable for you<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hjDmWw",
+        "text_BTBAtc"
+      ],
+      "settings": {
+        "real_full_width": true,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "coupon_multicolumn_4UXVfD": {
+      "type": "coupon-multicolumn",
+      "blocks": {
+        "column_TfG4XL": {
+          "type": "column",
+          "settings": {
+            "title": "<p>60%<br\/>OFF<\/p>",
+            "time_left": "10d left",
+            "discount_details": "5% cashback",
+            "text": "<p>Buy IO units of Volini to redeem this cashback,<\/p>",
+            "link_active": true,
+            "link_label": "DISC10",
+            "link": ""
+          }
+        },
+        "column_3jEQMV": {
+          "type": "column",
+          "settings": {
+            "title": "<p>60%<br\/>OFF<\/p>",
+            "time_left": "10d left",
+            "discount_details": "5% cashback",
+            "text": "<p>Buy IO units of Volini to redeem this cashback,<\/p>",
+            "link_active": true,
+            "link_label": "DISC10",
+            "link": ""
+          }
+        },
+        "column_Qkz7Me": {
+          "type": "column",
+          "settings": {
+            "title": "<p>60%<br\/>OFF<\/p>",
+            "time_left": "10d left",
+            "discount_details": "5% cashback",
+            "text": "<p>Buy IO units of Volini to redeem this cashback,<\/p>",
+            "link_active": true,
+            "link_label": "DISC10",
+            "link": ""
+          }
+        },
+        "column_P6ifbj": {
+          "type": "column",
+          "settings": {
+            "title": "<p>60%<br\/>OFF<\/p>",
+            "time_left": "10d left",
+            "discount_details": "5% cashback",
+            "text": "<p>Buy IO units of Volini to redeem this cashback,<\/p>",
+            "link_active": true,
+            "link_label": "DISC10",
+            "link": ""
+          }
+        },
+        "column_Vt6r9m": {
+          "type": "column",
+          "settings": {
+            "title": "<p>60%<br\/>OFF<\/p>",
+            "time_left": "10d left",
+            "discount_details": "5% cashback",
+            "text": "<p>Buy IO units of Volini to redeem this cashback,<\/p>",
+            "link_active": true,
+            "link_label": "DISC10",
+            "link": ""
+          }
+        },
+        "column_YyftLc": {
+          "type": "column",
+          "settings": {
+            "title": "<p>60%<br\/>OFF<\/p>",
+            "time_left": "10d left",
+            "discount_details": "5% cashback",
+            "text": "<p>Buy IO units of Volini to redeem this cashback,<\/p>",
+            "link_active": true,
+            "link_label": "DISC10",
+            "link": ""
+          }
+        },
+        "column_xFxjqe": {
+          "type": "column",
+          "settings": {
+            "title": "<p>60%<br\/>OFF<\/p>",
+            "time_left": "10d left",
+            "discount_details": "5% cashback",
+            "text": "<p>Buy IO units of Volini to redeem this cashback,<\/p>",
+            "link_active": true,
+            "link_label": "DISC10",
+            "link": ""
+          }
+        },
+        "column_4yKp8W": {
+          "type": "column",
+          "settings": {
+            "title": "<p>60%<br\/>OFF<\/p>",
+            "time_left": "10d left",
+            "discount_details": "5% cashback",
+            "text": "<p>Buy IO units of Volini to redeem this cashback,<\/p>",
+            "link_active": true,
+            "link_label": "DISC10",
+            "link": ""
+          }
+        },
+        "column_TePmk9": {
+          "type": "column",
+          "settings": {
+            "title": "<p>60%<br\/>OFF<\/p>",
+            "time_left": "10d left",
+            "discount_details": "5% cashback",
+            "text": "<p>Buy IO units of Volini to redeem this cashback,<\/p>",
+            "link_active": true,
+            "link_label": "DISC10",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TfG4XL",
+        "column_3jEQMV",
+        "column_Qkz7Me",
+        "column_P6ifbj",
+        "column_Vt6r9m",
+        "column_YyftLc",
+        "column_xFxjqe",
+        "column_4yKp8W",
+        "column_TePmk9"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_YgAQ9V",
+    "coupon_multicolumn_4UXVfD"
+  ]
+}
